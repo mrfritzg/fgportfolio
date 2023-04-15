@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: skyblue;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pagelogo {
+  transform: scale(0.5)
+}
+
+
+.nav-link:hover {
+  background-color: skyblue;
+  color: white;
+  font-weight: bolder;
+}
+
+.nav-link {
+  /* padding-left:30px;
+  padding-right:30px; */
+  margin-left:30px;
+  margin-right:30px; 
+ 
+  }
