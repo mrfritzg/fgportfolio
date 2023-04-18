@@ -15,12 +15,14 @@ code {
 }
 
 .pagelogo {
-  transform: scale(0.5)
+  /* transform: scale(0.5) */
+  width: 50px;
+  height: 50px;
 }
 
 
 .nav-link:hover {
-  background-color: skyblue;
+  background-color: /* skyblue */ rgba(19,139,164,255);
   color: white;
   font-weight: bolder;
 }
@@ -35,25 +37,29 @@ code {
 
   .masthead {
     background-size: cover;
+    background-position: center;
     min-height: 60vh;
-    /* position: relative; */
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.2  );
+    position: relative;
+    
+    
     background-image: url('../public/images/image_hero.jpg');
-    /* width: auto;
-  height: auto; */
+
   }
 
-  h1 {
-    font-size: 4rem
+  /* .masthead img {
+  width: 100%;
+  height: auto;
+  } */
+
+  .introText {
+    font-size: 3rem
   }
 
   .color-overlay {
-    /* position:absolute;
-    width: 100%;
-    height: 100%; */
-    /* background-color: rgb(19,138,162) */
-    background-color:rgba(19,139,164,255)
+    /* position:absolute; */
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2  );
+    background-color: rgba(19,139,164,255)
   }
 
   @media (max-width: 768px) {
@@ -61,7 +67,7 @@ code {
       min-height: 30vh;
     } 
 
-    h1 {
+    .introText {
       font-size: calc(1.525rem + 3.3vw);
     }
   }

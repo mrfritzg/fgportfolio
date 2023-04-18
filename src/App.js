@@ -7,14 +7,16 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className='row'>
-      <div className='col-sm-4 color-overlay d-flex justify-content-center align-items-center'>
-          <h1>Hello World!</h1>
+      <div className= 'masthead'> 
+      {/* <img className="d-flex justify-content-center align-items-center" src="/images/image_hero.jpg" alt="" /> */}
+      </div>
+        <div className='color-overlay text-center'>
+          <h1 className='introText'>Fritz Guerilus Jr.</h1>
+          <h2 className='introText'>Software Engineer / Web Developer</h2>
+
         </div>
-      <div className= 'col-sm-8 masthead'>     
+      
       </div>
-      </div>
-    </div>
   );
 }
 
