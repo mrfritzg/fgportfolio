@@ -56,7 +56,7 @@ function App() {
                   </p>
 
                   <p className="card-footer">
-                    <strong>GO TO WEBSITE: </strong>
+                  <Link to="https://buildinglogs-client.onrender.com" target="_blank" > <button  type="button" className="btn btn-primary">WEBSITE:</button> </Link>
                   </p>
                 </div>
               </div>
@@ -68,13 +68,25 @@ function App() {
                 <img src='#' alt="project image" className="card-img-top repair-img" />
                 <div className="card-body">
                   <Link to='#'>
-                    <h5 className="card-title"><strong>Project Title2</strong></h5>
+                    <h5 className="card-title"><strong>The Super Hero/Villian Website</strong></h5>
                   </Link>
                   <p className="card-text">
-                    <strong>Description: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reprehenderit ex quo maxime atque distinctio quia esse similique magnam tempore, sit iure in perferendis nihil adipisci sed repellendus. Eum magni totam nisi ab suscipit sunt, necessitatibus laboriosam id nulla provident libero accusantium quae? Nam, esse harum molestiae tempora voluptates repellat!
+                    <strong>Description: </strong>
+                    <br />
+                    This a REACT application where you can lookup Super Heros/Villian information. While browsing the internet, I could only find Super Heros/Villian websites that were limited to a single comic book universe, DC-only, Marvel-only, etc. This website combines Super Heros/Villian Website from Marvel, DC and more!. The goal of this website is to make it to the number 1 site for all Super Heros/Villian information. The website is divided into 3 main Sections, HOME, SEARCH, FAVORITES <br />
+                    <strong>Technical Setup</strong> <br />
+                    This website gathers data from 2 separate APIs.
+                    The Favorites page stores the favorite characters in Local Storage of the browser <br />
+                    <strong>Technolgies Used: </strong> <ul>
+                      <li>REACT FrontEnd</li>
+                      <li>External Third Party APIs: <br /><Link to="https://www.superheroapi.com/">SuperHero API</Link> <br /> <Link to="https://akabab.github.io/superhero-api/api">SuperHero API-AKABAB</Link></li>
+                      <li>Multiple Functional Components & Pages</li>
+                      <li>Fetch, Local storage, React Router</li>
+
+                    </ul>
                   </p>
                   <p className="card-footer">
-                    <strong>GO TO WEBSITE: </strong>
+                  <Link to="https://master--strong-basbousa-98aece.netlify.app/" target="_blank" > <button  type="button" className="btn btn-primary">WEBSITE:</button> </Link>
                   </p>
                 </div>
               </div>
@@ -86,13 +98,27 @@ function App() {
                 <img src='#' alt="project image" className="card-img-top repair-img" />
                 <div className="card-body">
                   <Link to='#'>
-                    <h5 className="card-title"><strong>Project Title3</strong></h5>
+                    <h5 className="card-title"><strong>Word Puzzle-Hangman</strong></h5>
                   </Link>
                   <p className="card-text">
-                    <strong>Description: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reprehenderit ex quo maxime atque distinctio quia esse similique magnam tempore, sit iure in perferendis nihil adipisci sed repellendus. Eum magni totam nisi ab suscipit sunt, necessitatibus laboriosam id nulla provident libero accusantium quae? Nam, esse harum molestiae tempora voluptates repellat!
+                    <strong>Description: </strong>
+                    It is a web app game for Hangman
+It is built with HTML, CSS and Vanilla JavaScript .
+
+# GamePlay:
+This is a 2 player game, & uses the default names of Jeff & Stan. Future versions of the game will allow visitors to enter their own names
+
+Each player has a chance to guess a letter for the missing Puzzle word.
+There is a hint to help. A round consist of a player correctly guessing all of the missing letters. The results of each guess is labeled as "Good" or "Bad".
+
+The round ends when a player either guesses all of the correct letters until the word is found or if they encounters a bad guess. If a player get's Bad guess they lose their turn and the next player gets a turn.
+<br />
+                    <strong>Technolgies Used: </strong> <ul>
+                      <li>HTML, CSS and Vanilla JavaScript, DOM Manipulation</li>
+                    </ul>
                   </p>
                   <p className="card-footer">
-                    <strong>GO TO WEBSITE: </strong>
+                    <Link to="https://mrfritzg.github.io/fg_hangman/" target="_blank" > <button  type="button" className="btn btn-primary">WEBSITE:</button> </Link>
                   </p>
                 </div>
               </div>
