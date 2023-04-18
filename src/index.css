@@ -46,10 +46,13 @@ code {
 
   }
 
-  /* .masthead img {
-  width: 100%;
-  height: auto;
-  } */
+  .mypic {
+   /* width: 50%;
+  height: 50%; */
+  border-radius: 70%;
+  margin: 0 auto;
+  display:block;
+  }
 
   .introText {
     font-size: 3rem
