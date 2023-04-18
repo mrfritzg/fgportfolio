@@ -20,7 +20,10 @@ function App() {
             <img className='mypic' src='./images/fritzimage2.jpeg' alt='picture of fritz' />
           </div>
           <div className='col-md-9'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatum dolores doloremque aspernatur impedit animi magnam ut suscipit sunt, itaque magni, quibusdam in praesentium laboriosam minima optio facilis atque? Labore deleniti magnam eum, nisi id eaque iusto voluptatem soluta culpa, maxime porro! Facere praesentium fugiat accusamus quis ab consequatur temporibus?</p>
+            <p className=" text-center">Hello and Welome to my Portfolio Site</p>
+            <p>My Name is Fritz Guerilus Jr. I am fulfilling my dream of becoming a Software Engineer and Web Developer. I've always been curious and as result I've always been drawn to technology and creativity.</p>
+            <p> Software Engineering allows me to combine technology and creativity in a way to satisfy my curiosity and to create web apps. One of the goals of my web apps is to create practical solutions to problems or the needs of people. If I can add some fun to the project, then I consider it a bonus. </p>
+            <p>Software Engineering is a journey. So it's best not to stay stationary. I've learned the basics of HTML, CSS, and JavaScript. As I keep growing and learning I've expanded to MongoDB, EXPRESS, REACT, NODEJS. Technology will always improve and curiousity will always provide people the spark to use technology in great ways. And I want to be part of that journey. In the words of Albert Einstein - <span style={{fontStyle:'italic', fontWeight:'bold'}}>"I have no special talents. I am only passionately curious"</span> </p>
           </div>
         </div>
         <h1 className='text-center'>Projects</h1>
