@@ -9,6 +9,11 @@ body {
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -47,8 +52,8 @@ code {
   }
 
   .mypic {
-   /* width: 50%;
-  height: 50%; */
+   width: 100%;
+  height: auto;
   border-radius: 70%;
   margin: 0 auto;
   display:block;
@@ -87,3 +92,8 @@ code {
   .card-body {
     background-color: skyblue;
   }
+
+  /* .div1 {
+    display: flex;
+    justify-content: center;
+  } */

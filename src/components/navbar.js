@@ -24,10 +24,10 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto nav-pills">
                     <li className="nav-item active">
-                        <Link to="/#myprojects" className="nav-link">Projects</Link>
+                        <Link to="/projects" className="nav-link">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contacts" className="nav-link">Contact</Link>
+                        <Link to="/contact" className="nav-link">Contact</Link>
                     </li>
                 </ul>
             </div>
