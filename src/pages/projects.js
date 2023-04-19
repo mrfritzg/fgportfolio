@@ -14,7 +14,7 @@ export default function Projects() {
       <div className=' p-5 aboutMe'>
         <h1 className='text-center'>About Me</h1>
         <div className='row g-4'>
-          <div className='col-md-3 div1'>
+          <div className='col-md-3'>
             <img className='mypic' src='./images/fritzimage2.jpeg' alt='picture of fritz' />
           </div>
           <div className='col-md-9'>
@@ -30,8 +30,8 @@ export default function Projects() {
         <div className="container">
           <h1 className='text-center'>Projects</h1>
           <div className='row g-3'>
-            <div className='col-md-4'>
-              <div className="card">
+            <div className='col-md-4 col-sm-6'>
+              <div className="card h-100">
                 <img src='./images/repair.png' alt="project image" className="card-img-top repair-img" />
                 <div className="card-body">
                   <Link to="https://buildinglogs-client.onrender.com" target="_blank" >
@@ -40,9 +40,8 @@ export default function Projects() {
                   <p className="card-text">
                     <strong>Description: </strong>
                     <br />
-                    This is a web app built on the MERN stack. It's a Fullstack application. This web app provides a quick and efficient way for residents of an apartment building to report any repair issues to management.
-                    You can add comments to your repair ticket to keep track of it's status
-                    You can also see all the service tickets that have been entered from other residents. Include sign up/login (authentication) functionality, with encrypted passwords & an authorization flow.
+                    This is a Fullstack app built on the MERN stack. This web app provides a quick and efficient way for residents of an apartment building to report any repair issues to management.
+                    You can add comments to your repair ticket to keep track of it's status. You can also see all the service tickets that have been entered from other residents. Include sign up/login (authentication) functionality, with encrypted passwords & an authorization flow.
                     <br />
                     <strong>Technolgies Used: </strong> <ul>
                       <li>MERN stack: Node.js, MongoDB/Mongoose, Express and React.</li>
@@ -61,8 +60,8 @@ export default function Projects() {
             </div>
 
 
-            <div className='col-md-4'>
-              <div className="card">
+            <div className='col-md-4 col-sm-6'>
+              <div className="card h-100">
                 <img src='./images/superhero.png' alt="project image" className="card-img-top" />
                 <div className="card-body">
                   <Link to="https://master--strong-basbousa-98aece.netlify.app/" target="_blank" >
@@ -91,8 +90,8 @@ export default function Projects() {
             </div>
 
 
-            <div className='col-md-4'>
-              <div className="card">
+            <div className='col-md-4 col-sm-6'>
+              <div className="card h-100">
                 <img src='./images/hangman.png' alt="project image" className="card-img-top repair-img" />
                 <div className="card-body">
                   <Link to='https://mrfritzg.github.io/fg_hangman/' target="_blank">
@@ -100,8 +99,7 @@ export default function Projects() {
                   </Link>
                   <p className="card-text">
                     <strong>Description: </strong>
-                    It is a web app game for Hangman
-                    It is built with HTML, CSS and Vanilla JavaScript .
+                    It is a web app game for Hangman. It is built with HTML, CSS and Vanilla JavaScript . <br/>
 
                     # GamePlay:
                     This is a 2 player game, & uses the default names of Jeff & Stan. Future versions of the game will allow visitors to enter their own names
