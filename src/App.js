@@ -28,15 +28,15 @@ function App() {
           </div>
         </div>
       </div>
-      <div className=' p-5 myprojects'>
+      <div className=' p-5' id='myprojects'>
         <div className="container">
           <h1 className='text-center'>Projects</h1>
-          <div className='row g-3 myprojects'>
+          <div className='row g-3'>
             <div className='col-md-4'>
               <div className="card">
-                <img src='#' alt="project image" className="card-img-top repair-img" />
+                <img src='./images/repair.png' alt="project image" className="card-img-top repair-img" />
                 <div className="card-body">
-                  <Link to='#'>
+                <Link to="https://buildinglogs-client.onrender.com" target="_blank" >
                     <h5 className="card-title"><strong>MrFritz Luxury Apartments Repair Requests</strong></h5>
                   </Link>
                   <p className="card-text">
@@ -55,7 +55,7 @@ function App() {
                     </ul>
                   </p>
 
-                  <p className="card-footer">
+                  <p className="card-footer text-center">
                   <Link to="https://buildinglogs-client.onrender.com" target="_blank" > <button  type="button" className="btn btn-primary">WEBSITE:</button> </Link>
                   </p>
                 </div>
@@ -65,15 +65,15 @@ function App() {
             {/* PROJECT2 */}
             <div className='col-md-4'>
               <div className="card">
-                <img src='#' alt="project image" className="card-img-top repair-img" />
+                <img src='./images/superhero.png' alt="project image" className="card-img-top" />
                 <div className="card-body">
-                  <Link to='#'>
+                <Link to="https://master--strong-basbousa-98aece.netlify.app/" target="_blank" >
                     <h5 className="card-title"><strong>The Super Hero/Villian Website</strong></h5>
                   </Link>
                   <p className="card-text">
                     <strong>Description: </strong>
                     <br />
-                    This a REACT application where you can lookup Super Heros/Villian information. While browsing the internet, I could only find Super Heros/Villian websites that were limited to a single comic book universe, DC-only, Marvel-only, etc. This website combines Super Heros/Villian Website from Marvel, DC and more!. The goal of this website is to make it to the number 1 site for all Super Heros/Villian information. The website is divided into 3 main Sections, HOME, SEARCH, FAVORITES <br />
+                    This a REACT application where you can lookup Super Heros/Villian information. While browsing the internet, I could only find Super Heros/Villian websites that were limited to a single comic book universe, DC-only, Marvel-only, etc. This website combines Super Heros/Villian Website from Marvel, DC and more!. The goal of this website is to make it to the number 1 site for all Super Heros/Villian information. The website is divided into 3 main Sections, HOME, SEARCH, FAVORITES <br />  
                     <strong>Technical Setup</strong> <br />
                     This website gathers data from 2 separate APIs.
                     The Favorites page stores the favorite characters in Local Storage of the browser <br />
@@ -85,7 +85,7 @@ function App() {
 
                     </ul>
                   </p>
-                  <p className="card-footer">
+                  <p className="card-footer text-center">
                   <Link to="https://master--strong-basbousa-98aece.netlify.app/" target="_blank" > <button  type="button" className="btn btn-primary">WEBSITE:</button> </Link>
                   </p>
                 </div>
@@ -95,9 +95,9 @@ function App() {
             {/* PROJECT3 */}
             <div className='col-md-4'>
               <div className="card">
-                <img src='#' alt="project image" className="card-img-top repair-img" />
+                <img src='./images/hangman.png' alt="project image" className="card-img-top repair-img" />
                 <div className="card-body">
-                  <Link to='#'>
+                  <Link to='https://mrfritzg.github.io/fg_hangman/' target="_blank">
                     <h5 className="card-title"><strong>Word Puzzle-Hangman</strong></h5>
                   </Link>
                   <p className="card-text">
@@ -117,7 +117,7 @@ The round ends when a player either guesses all of the correct letters until the
                       <li>HTML, CSS and Vanilla JavaScript, DOM Manipulation</li>
                     </ul>
                   </p>
-                  <p className="card-footer">
+                  <p className="card-footer text-center">
                     <Link to="https://mrfritzg.github.io/fg_hangman/" target="_blank" > <button  type="button" className="btn btn-primary">WEBSITE:</button> </Link>
                   </p>
                 </div>

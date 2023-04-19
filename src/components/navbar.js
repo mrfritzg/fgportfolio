@@ -5,7 +5,7 @@ export default function Navbar() {
         
             <nav className="navbar navbar-expand-sm navbar-light bg-light">
                 <div className="container">
-            <Link to="#" 
+            <Link to="/" 
             className="navbar-brand mb-0 h1">
                 <img 
                 className="d-inline-block align-top pagelogo" 
@@ -24,10 +24,10 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto nav-pills">
                     <li className="nav-item active">
-                        <Link to="#" className="nav-link">Projects</Link>
+                        <Link to="/#myprojects" className="nav-link">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="#" className="nav-link">Contact</Link>
+                        <Link to="/contacts" className="nav-link">Contact</Link>
                     </li>
                 </ul>
             </div>

@@ -75,6 +75,15 @@ code {
     }
   }
 
-  .myprojects {
+  #myprojects {
     background-color: rgba(19,139,164,255)
+  }
+
+  button {
+    background-color: rgba(19,139,164,255) !important;
+
+  }
+
+  .card-body {
+    background-color: skyblue;
   }
