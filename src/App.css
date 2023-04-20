@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+
+.pagelogo {
+  width: 50px;
+  height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link:hover {
+  background-color: rgba(19,139,164,255);
   color: white;
+  font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  margin-left:30px;
+  margin-right:30px; 
+ 
+  }
+
+  .masthead {
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    position: relative;
+    
+    
+    background-image: url('../public/images/image_hero.jpg');
+
+  }
+
+  .mypic {
+   width: 100%;
+  height: auto;
+  border-radius: 70%;
+  margin: 0 auto;
+  display:block;
+  }
+
+  .introText {
+    font-size: 3rem
+  }
+
+  .color-overlay {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2  );
+    background-color: rgba(19,139,164,255)
+  }
+
+  @media (max-width: 768px) {
+    .masthead {
+      min-height: 30vh;
+    } 
+
+    .introText {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+  }
+
+  #myprojects {
+    background-color: rgba(19,139,164,255)
+  }
+
+  button {
+    background-color: rgba(19,139,164,255) !important;
+
+  }
+
+  .card-body {
+    background-color: skyblue;
+  }
+
+  
+  i {
+    color: rgba(19,139,164,255);
+  }
+
+
+  footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.emailform {
+  background-color: rgba(19,139,164,255) 
+}
+
+.forEmail{
+  background-color: skyblue !important; 
+  font-weight: bold;
 }

@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Projects from "./pages/projects";
@@ -9,7 +8,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Routes>
         <Route path='/contact' element={<Contact />} />
@@ -18,7 +17,7 @@ function App() {
         <Route path='*' element={<Navigate to='/' />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 
