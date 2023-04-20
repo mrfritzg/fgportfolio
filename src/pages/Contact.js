@@ -5,7 +5,7 @@ export default function Contact() {
             <div className="row justify-content-center my-5 emailform">
                 <div className="col-md-8">
                     <form action="">
-                        <label htmlFor="email" className="form-label">Email:</label>
+                        <label htmlFor="email" className="fw-bold form-label">Email:</label>
                         <div className="mb-4 input-group">
                             <span className="input-group-text">
                                 <i className="bi bi-envelope-at-fill"></i>
@@ -13,7 +13,7 @@ export default function Contact() {
                             <input type="email" id="email" placeholder="e.g. mario@example.com" required className="form-control" />
                         </div>
 
-                        <label htmlFor="subject" className="form-label">Subject:</label>
+                        <label htmlFor="subject" className="fw-bold form-label">Subject:</label>
                         <div className="mb-4 input-group">
                             <span className="input-group-text">
                                 <i className="bi bi-chat-right-dots-fill"></i>
@@ -24,8 +24,8 @@ export default function Contact() {
                         </div>
 
                         <div className=" form-floating mb-4 mt-5 input-group">
-                            <textarea id="message" className="form-control" aria-label="With textarea" style={{ height: "140px" }}></textarea>
-                            <label htmlFor="message">Message...</label>
+                            <textarea id="message" className="form-control" aria-label="With textarea" style={{ height: "200px" }}required ></textarea>
+                            <label htmlFor="message" className="fw-bold">Message...</label>
                         </div>
                         <div className="mb-4 text-center">
                             <button type="submit" className="btn forEmail">SEND</button>
