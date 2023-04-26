@@ -6,6 +6,7 @@ export default function Contact() {
                 <div className="col-md-8 m-2 px-4">
                     <form 
                     name="contact" method="POST"  data-netlify="true" onSubmit="submit">
+                        <input type="hidden" name="form name" value="contact" />
                         <label htmlFor="name" className="fw-bold form-label">Your Name:</label>
                         <div className="mb-4 input-group">
                             <span className="input-group-text">
