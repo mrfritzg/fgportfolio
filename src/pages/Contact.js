@@ -3,7 +3,7 @@ export default function Contact() {
         <>
             <h1 className="text-center m-4">SEND ME A MESSAGE</h1>
             <div className="row justify-content-center my-5 emailform">
-                <div className="col-md-8 m-2">
+                <div className="col-md-8 m-2 px-4">
                     <form 
                     name="contact" method="POST" data-netlify="true" onSubmit="submit">
                         <label htmlFor="name" className="fw-bold form-label">Your Name:</label>
