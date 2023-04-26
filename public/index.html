@@ -36,12 +36,13 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <form name='contact' netlify netlify-honeypot="bot-field" hidden>
   
-              <input type="text" id="name" name="name" placeholder="e.g. John Doe" required />
+      <input type="hidden" name="_next" value="/success/" />        
+      <input type="text" id="name" name="name" placeholder="e.g. John Doe" required />
   
               <input type="email" id="email" name="email" placeholder="e.g. mario@example.com" required  />
           
               <input type="text" id="subject" name="subject" placeholder="e.g. Hi there" required />
-              
+
               <textarea id="message" name="message" aria-label="With textarea" style="height: 200px" required ></textarea>
       </form>
 
