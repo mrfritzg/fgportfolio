@@ -5,7 +5,7 @@ export default function Contact() {
             <div className="row justify-content-center my-5 emailform">
                 <div className="col-md-8 m-2 px-4">
                     <form 
-                    name="contact" method="POST" data-netlify="true" onSubmit="submit">
+                    name="contact" method="POST" netlify onSubmit="submit">
                         <label htmlFor="name" className="fw-bold form-label">Your Name:</label>
                         <div className="mb-4 input-group">
                             <span className="input-group-text">
