@@ -61,7 +61,7 @@ export default function Projects() {
 
             <div className='col-md-4 col-sm-6'>
               <div className="card h-100">
-                <img src='./images/superhero.png' alt="project image" className="card-img-top" />
+                <img src='./images/superhero2.png' alt="project image" className="card-img-top" />
                 <div className="card-body">
                   <Link to="https://master--strong-basbousa-98aece.netlify.app/" target="_blank" >
                     <h5 className="card-title"><strong>The Super Hero/Villian Website</strong></h5>
