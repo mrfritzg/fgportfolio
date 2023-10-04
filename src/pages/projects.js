@@ -69,7 +69,7 @@ export default function Projects() {
                   <p className="card-text">
                     <strong>Description: </strong>
                     <br />
-                    This a REACT application where you can lookup Super Heros/Villian information. While browsing the internet, I could only find Super Heros/Villian websites that were limited to a single comic book universe, DC-only, Marvel-only, etc. This website combines Super Heros/Villian Website from Marvel, DC and more!. The goal of this website is to make it to the number 1 site for all Super Heros/Villian information. The website is divided into 3 main Sections, HOME, SEARCH, FAVORITES <br />
+                    This a REACT application where you can lookup Super Heros/Villain information. While browsing the internet, I could only find Super Heros/Villain websites that were limited to a single comic book universe, DC-only, Marvel-only, etc. This website combines Super Heros/Villian Website from Marvel, DC and more!. The goal of this website is to make it to the number 1 site for all Super Heros/Villian information. The website is divided into 3 main Sections, HOME, SEARCH, FAVORITES <br />
                     <strong>Technical Setup</strong> <br />
                     This website gathers data from 2 separate APIs.
                     The Favorites page stores the favorite characters in Local Storage of the browser <br />
