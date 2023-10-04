@@ -63,7 +63,7 @@ export default function Projects() {
               <div className="card h-100">
                 <img src='./images/superhero2.png' alt="project image" className="card-img-top" />
                 <div className="card-body">
-                  <Link to="https://master--strong-basbousa-98aece.netlify.app/" target="_blank" >
+                  <Link to="https://master--shiny-muffin-437497.netlify.app/" target="_blank" >
                     <h5 className="card-title"><strong>The Super Hero/Villian Website</strong></h5>
                   </Link>
                   <p className="card-text">
